@@ -1,0 +1,113 @@
+#components-layout-demo-responsive .logo {
+    height: 32px;
+    background: rgba(255,255,255,.2);
+    margin: 16px;
+  }
+
+
+
+.ant-layout-sider-children {
+    background-color: black;
+}
+
+.ant-layout-header {
+    background-color: black;
+}
+
+.ant-menu-dark {
+    background-color: black;
+
+}
+  .box {
+      border: 1px solid black;
+      background-color: black;
+  }
+
+  #layout1 {
+      height: 100vh;
+      background-color: black;
+  }
+
+  #movie {
+      height: 100vh;
+  }
+
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+      font-family: "Press Start 2P";
+      color: black;
+  }
+
+  
+  #container {
+      display: grid;
+      grid-template-columns: 1.8fr 1fr;
+      grid-template-areas: "sidebar main";
+      width: 100vw;
+      height: 100vh;
+      background-color: black;
+  }
+  #main {
+      grid-area: main;
+  }
+  #new-message {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      padding: 5px;
+      margin-left: 0px;
+      border-top: 1px solid #3f3f3f;
+  }
+  #messages-list {
+      padding: 5px 0 0 5px;
+  }
+  /* #sidebar {
+      grid-area: sidebar;
+      padding: 5px 0 0 5px;
+      border-right: 1px solid #3f3f3f;
+      height: 100%;
+  } */
+
+
+.rcw-launcher  {
+    background-color: black;
+    
+}
+.rcw-conversation-container > .rcw-header {
+    background-color: black;
+    color: #ffffff;
+  }
+.rcw-conversation-container .rcw-close-button {
+    background-color: black;
+}
+
+.rcw-title {
+    color: #ffffff;
+}
+.rcw-messages-container {
+    background-color:black;
+}
+
+.rcw-response {
+    background-color:black;
+    border: 1.5px solid #ef8310b5;
+    color: #ffffff;
+}
+
+.rcw-client {
+    background-color:black;
+    border: 1.5px solid #ef8310b5;
+    color: #ffffff;
+}
+
+   
+/* .rcw-message > .rcw-client {
+    background-color: black;
+    border: 2px solid #ef8310;
+    color: white;
+  } */
